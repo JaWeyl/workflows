@@ -1,0 +1,5 @@
+.DS_Store
+__pycache__
+.vscode
+./pdf_merge/__pycache__
+./pdf_merge/.vscode/settings.json
