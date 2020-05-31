@@ -1,16 +1,16 @@
 # Merge PDF files
-Assumptions:
+## Assumptions:
 - You are given two folders with pdf files - lets call them dir1 and dir2
 - The filenames of corresponding pdfs are identical in both folders
 
-Prerequisties:
+## Prerequisties:
 ```
 $ conda create -n pdfmerge python=3.7
 $ conda activate pdfmerge
 $ conda install -c conda-forge pypdf2
 ```
 
-Run
+## Run
 ```
 python pdfMatcher.py --dir1 /path/to/dir1 --dir2 /path/to/dir2 --output_dir /path/to/output/dir
 ```
